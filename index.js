@@ -20,13 +20,20 @@ function isPalindrome(word) {
   }
 }
 
-// function isPalindrome(word) {
-//   // Write your algorithm here
-//   const alphanumericOnly = word.toLowerCase()
-//     .match(/[a-z0-9]/g)
-//   return alphanumericOnly.join('') ===
-//     alphanumericOnly.reverse().join('');
-// }
+//Below is my original implementation of palindrome.
+/*
+
+function isPalindrome(word) {
+  // Write your algorithm here
+  const alphanumericOnly = word.toLowerCase()
+    .match(/[a-z0-9]/g)
+  return alphanumericOnly.join('') ===
+    alphanumericOnly.reverse().join('');
+}
+
+**/
+
+
 //I have used method chaining to make it much more clear.
 /*
   Add written explanation of your solution here
